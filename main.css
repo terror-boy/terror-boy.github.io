@@ -39,6 +39,6 @@ h2 {
 
 .footer {
 	position: absolute;
-	bottom: 0;
+	bottom: -400%;
 	width: 100%;
 }
