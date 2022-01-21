@@ -1,5 +1,5 @@
 body {
-	background: url("background.jpg"); /* Links to your background image, which you can also replace with a URL. */
+	background: url("https://www.linkpicture.com/q/background_5.jpg"); /* Links to your background image, which you can also replace with a URL. */
 	background-size: cover; /* Image covers page. */
 	background-repeat: no-repeat; /* Image does not repeat. */
 	background-attachment: fixed; /* Image doesn't move when you scroll up or down. */
@@ -39,6 +39,6 @@ h2 {
 
 .footer {
 	position: absolute;
-	bottom: -400%;
+	bottom: -300%;
 	width: 100%;
 }
