@@ -1663,13 +1663,13 @@ input, select, textarea {
 /* (A) STANDARD ROW HEIGHT */
 .vwrap, .vitem {
   height: 30px;
-  line-height: 30px;
+  line-height: 0px;
 }
 
 /* (B) FIXED WRAPPER */
 .vwrap {
   overflow: hidden; /* HIDE SCROLL BAR */
-  background: #54C34D;
+  background: #EB1D36;
 }
 
 /* (C) TICKER ITEMS */
