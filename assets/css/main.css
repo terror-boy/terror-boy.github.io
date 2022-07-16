@@ -1680,14 +1680,14 @@ input, select, textarea {
 .vmove { position: relative; }
 @keyframes tickerv {
   0% { bottom: 0; } /* FIRST ITEM */
-  30% { bottom: 30px; } /* SECOND ITEM */
-  60% { bottom: 60px; } /* THIRD ITEM */
-  90% { bottom: 90px; } /* FORTH ITEM */
-  100% { bottom: 0; } /* BACK TO FIRST */
+  40% { bottom: 40px; } /* SECOND ITEM */
+  70% { bottom: 70px; } /* THIRD ITEM */
+  100% { bottom: 100px; } /* FORTH ITEM */
+  110% { bottom: 0; } /* BACK TO FIRST */
 }
 .vmove {
   animation-name: tickerv;
-  animation-duration: 5s;
+  animation-duration: 10s;
   animation-iteration-count: infinite;
   animation-timing-function: cubic-bezier(1, 0, .5, 0);
 }
