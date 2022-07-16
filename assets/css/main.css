@@ -1669,7 +1669,7 @@ input, select, textarea {
 /* (B) FIXED WRAPPER */
 .vwrap {
   overflow: hidden; /* HIDE SCROLL BAR */
-  background: #EB1D36;
+  background: #000000;
 }
 
 /* (C) TICKER ITEMS */
