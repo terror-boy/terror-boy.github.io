@@ -1745,7 +1745,7 @@ button {
   display: inline-block;
   padding: 8px;
   color: white;
-  background-color: #000;
+  background-color: #3330E4;
   text-align: center;
   cursor: pointer;
   width: 100%;
@@ -1755,7 +1755,7 @@ button {
 a {
   text-decoration: none;
   font-size: 22px;
-  color: black;
+  color: green;
 }
 
 button:hover, a:hover {
