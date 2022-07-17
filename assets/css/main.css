@@ -1663,7 +1663,7 @@ input, select, textarea {
 /* (A) STANDARD ROW HEIGHT */
 .vwrap, .vitem {
   height: 30px;
-  line-height: 0px;
+  line-height: 10px;
 }
 
 /* (B) FIXED WRAPPER */
