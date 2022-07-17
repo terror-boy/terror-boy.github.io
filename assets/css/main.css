@@ -1662,7 +1662,7 @@ input, select, textarea {
 		}
 /* (A) STANDARD ROW HEIGHT */
 .vwrap, .vitem {
-  height: 30px;
+  height: 50px;
   line-height: 10px;
 }
 
