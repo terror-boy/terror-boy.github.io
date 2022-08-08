@@ -1,100 +1,57 @@
-<html>
-	<body>
-                <title>DEVELOPERS ON BOARD IN KARTHIK-TERROR-BOY [KTB] WEBSITE</title>
-		<meta charset="utf-8">
-		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
-		<link rel="stylesheet" href="assets/css/main.css">
-		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
-    <h1 class="heading">recently played</h1>
-<div class="playlists-group">
-    <div class="playlist-card">
-        <img src="assets/images/cover 9.png" class="playlist-card-img" alt="">
-        <p class="playlist-card-name">top international</p>
-    </div>
-    <div class="playlist-card">
-        <img src="assets/images/cover 2.png" class="playlist-card-img" alt="">
-        <p class="playlist-card-name">BTS collection</p>
-    </div>
-    //+3 more
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Simple Music Player</title>
+<!-- Load FontAwesome icons -->
+<link rel="stylesheet"
+		href=
+"https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
+
+<!-- Load the custom CSS style file -->
+<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+<div class="player">
+
+	<!-- Define the section for displaying details -->
+	<div class="details">
+	<div class="now-playing">PLAYING x OF y</div>
+	<div class="track-art"></div>
+	<div class="track-name">Track Name</div>
+	<div class="track-artist">Track Artist</div>
+	</div>
+
+	<!-- Define the section for displaying track buttons -->
+	<div class="buttons">
+	<div class="prev-track" onclick="prevTrack()">
+		<i class="fa fa-step-backward fa-2x"></i>
+	</div>
+	<div class="playpause-track" onclick="playpauseTrack()">
+		<i class="fa fa-play-circle fa-5x"></i>
+	</div>
+	<div class="next-track" onclick="nextTrack()">
+		<i class="fa fa-step-forward fa-2x"></i>
+	</div>
+	</div>
+
+	<!-- Define the section for displaying the seek slider-->
+	<div class="slider_container">
+	<div class="current-time">00:00</div>
+	<input type="range" min="1" max="100"
+		value="0" class="seek_slider" onchange="seekTo()">
+	<div class="total-duration">00:00</div>
+	</div>
+
+	<!-- Define the section for displaying the volume slider-->
+	<div class="slider_container">
+	<i class="fa fa-volume-down"></i>
+	<input type="range" min="1" max="100"
+		value="99" class="volume_slider" onchange="setVolume()">
+	<i class="fa fa-volume-up"></i>
+	</div>
 </div>
-<h1 class="heading">based on your listening</h1>
-<div class="playlists-group">
-    <div class="playlist-card">
-        <img src="assets/images/cover 11.png" class="playlist-card-img" alt="">
-        <p class="playlist-card-name">top international</p>
-    </div>
-    <div class="playlist-card">
-        <img src="assets/images/cover 12.png" class="playlist-card-img" alt="">
-        <p class="playlist-card-name">BTS collection</p>
-    </div>
-    //+3 more
-</div>
-<section class="music-player-section">
 
-    <img src="assets/images/back.png" class="back-btn icon hide" alt="">
-    <img src="assets/images/nav.png" class="nav-btn icon hide" alt="">
-
-    <h1 class="current-song-name">song 1</h1>
-    <p class="artist-name hide">artist 1</p>
-
-    <img src="assets/images/cover 1.png" class="cover hide" alt="">
-
-    <div class="seek-bar-container">
-        <input type="range" class="music-seek-bar" value="0">
-        <p class="current-time hide">00 : 00</p>
-        <p class="duration hide">00 : 00</p>
-    </div>
-
-    <div class="controls">
-        <span class="fas fa-redo"></span>
-        <div class="main">
-            <i class="fas fa-backward active"></i>
-            <i class="fas fa-play active"></i>
-            <i class="fas fa-pause"></i>
-            <i class="fas fa-forward active"></i>
-        </div>
-        <input type="range" class="volume-slider" max="1" value="1" step="0.1">
-        <span class="fas fa-volume-up"></span>
-    </div>
-
-</section>
-<section class="music-player-section active">
-...
-</section>
-<section class="playlist active">
-
-    <img src="assets/images/back.png" class="back-btn icon" alt="">
-
-    <h1 class="title">playlist</h1>
-
-    <div class="queue active">
-        <div class="queue-cover">
-            <img src="assets/images/cover 1.png" alt="">
-            <i class="fas fa-pause"></i>
-        </div>
-        <p class="name">song 1</p>
-    </div>
-    // +7 more
-</section>
-
-
-<section class="home-section">
-    <!-- carousel -->
-    <div class="carousel">
-        <img src="assets/images/cover 1.png" class="active" alt="">
-        <img src="assets/images/cover 2.png" alt="">
-        <img src="assets/images/cover 3.png" alt="">
-        <img src="assets/images/cover 4.png" alt="">
-        <img src="assets/images/cover 5.png" alt="">
-    </div>
-</section>
-		
-<audio src="" id="audio-source"></audio>
-
-    
-    <script src="=app.js"></script>
-    <script src="=data.js"></script>
-   
-    </body>
+<!-- Load the main script for the player -->
+<script src="app.js"></script>
+</body>
 </html>
-      
