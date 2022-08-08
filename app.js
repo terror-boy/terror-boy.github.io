@@ -88,7 +88,7 @@ function random_bg_color() {
   let bgColor = "rgb(" + red + "," + green + "," + blue + ")";
 
   // Set the background to that color
-  document.body.style.background = "url('im1.gif')";
+  document.body.style.background = "url('im2.jpg')";
 }
 
 function loadTrack(track_index) {
