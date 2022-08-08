@@ -21,110 +21,60 @@ let curr_track = document.createElement('audio');
 
 // Define the tracks that have to be played
 let track_list = [
-  
-  {
-    name: "Night Owl",
-    artist: "Broke For Free",
-    image: "https://images.pexels.com/photos/2264753/pexels-photo-2264753.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=250&w=250",
-    path: "./ktb/m1.mp3"
-  },
-  {
-    name: "Night Owl",
-    artist: "Broke For Free",
-    image: "https://images.pexels.com/photos/2264753/pexels-photo-2264753.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=250&w=250",
-    path: "./ktb/m2.mp3"
-  },
-  {
-    name: "Night Owl",
-    artist: "Broke For Free",
-    image: "https://images.pexels.com/photos/2264753/pexels-photo-2264753.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=250&w=250",
-    path: "./ktb/m`3.mp3"
-  },
-  {
-    name: "Night Owl",
-    artist: "Broke For Free",
-    image: "https://images.pexels.com/photos/2264753/pexels-photo-2264753.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=250&w=250",
-    path: "./ktb/m4.mp3"
-  },
-  {
-    name: "Night Owl",
-    artist: "Broke For Free",
-    image: "https://images.pexels.com/photos/2264753/pexels-photo-2264753.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=250&w=250",
-    path: "./ktb/m5.mp3"
-  },
-  {
-    name: "Night Owl",
-    artist: "Broke For Free",
-    image: "https://images.pexels.com/photos/2264753/pexels-photo-2264753.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=250&w=250",
-    path: "./ktb/m6.mp3"
-  },
-  {
-    name: "Night Owl",
-    artist: "Broke For Free",
-    image: "https://images.pexels.com/photos/2264753/pexels-photo-2264753.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=250&w=250",
-    path: "./ktb/m7.mp3"
-  },
-  {
-    name: "Night Owl",
-    artist: "Broke For Free",
-    image: "https://images.pexels.com/photos/2264753/pexels-photo-2264753.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=250&w=250",
+    {
+    name: "Ranjha Musical Cover",
+    artist: "Hanan Shaah Ft Jazeem & Ibnu Azru",
+    image: "https://i.ytimg.com/vi/OJqt-SUFENg/0.jpg?auto=compress&cs=tinysrgb&dpr=3&h=250&w=250",
     path: "./ktb/m8.mp3"
   },
   {
-    name: "Night Owl",
-    artist: "Broke For Free",
-    image: "https://images.pexels.com/photos/2264753/pexels-photo-2264753.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=250&w=250",
+    name: "Mehabooba Musical Cover ",
+    artist: "Hanan Shaah Ft Fajish",
+    image: "https://i.ytimg.com/vi/ZeTihwknnAc/0.jpg?auto=compress&cs=tinysrgb&dpr=3&h=250&w=250",
     path: "./ktb/m9.mp3"
   },
   {
-    name: "Night Owl",
-    artist: "Broke For Free",
-    image: "https://images.pexels.com/photos/2264753/pexels-photo-2264753.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=250&w=250",
-    path: "./ktb/m10.mp3"
+    name: "Painkiller Songs|pain killers for love failures | soulful songs 8D",
+    artist: "Sid Sriram",
+    image: "https://i.ytimg.com/vi/92d1iKfScGM/0.jpg?auto=compress&cs=tinysrgb&dpr=3&h=250&w=250",
+    path: "./ktb/m1.mp3"
   },
   {
-    name: "Night Owl",
-    artist: "Broke For Free",
-    image: "https://images.pexels.com/photos/2264753/pexels-photo-2264753.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=250&w=250",
-    path: "./ktb/m11.mp3"
+    name: "Porkanda singam",
+    artist: "Anirudh Ravichandhar",
+    image: "https://i.ytimg.com/vi/5yDZXNSDAsg/0.jpg?auto=compress&cs=tinysrgb&dpr=3&h=250&w=250",
+    path: "./ktb/m2.mp3"
   },
   {
-    name: "Night Owl",
-    artist: "Broke For Free",
-    image: "https://images.pexels.com/photos/2264753/pexels-photo-2264753.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=250&w=250",
-    path: "./ktb/m12.mp3"
+    name: "8d Thattathin Marayath All Songs",
+    artist: "nivin pauly | isha thalwar | vineeth sreenivasan | shan rahman |",
+    image: "https://i.ytimg.com/vi/p2OHWdyZBEk/0.jpg?auto=compress&cs=tinysrgb&dpr=3&h=250&w=250",
+    path: "./ktb/m3.mp3"
   },
   {
-    name: "Night Owl",
-    artist: "Broke For Free",
-    image: "https://images.pexels.com/photos/2264753/pexels-photo-2264753.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=250&w=250",
-    path: "./ktb/m13.mp3"
+    name: "Anirudh Melody Hits - Best of Anirudh",
+    artist: "Anirudh Ravichandhar",
+    image: "https://i.ytimg.com/vi/zDStGFY5SZM/0.jpg?auto=compress&cs=tinysrgb&dpr=3&h=250&w=250",
+    path: "./ktb/m4.mp3"
   },
   {
-    name: "Night Owl",
-    artist: "Broke For Free",
-    image: "https://images.pexels.com/photos/2264753/pexels-photo-2264753.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=250&w=250",
-    path: "./ktb/m14.mp3"
+    name: "Sid Sriram Melody Hits",
+    artist: "Sid Sriram",
+    image: "https://i.ytimg.com/vi/-aHmVsJV64c/0.jpg?auto=compress&cs=tinysrgb&dpr=3&h=250&w=250",
+    path: "./ktb/m5.mp3"
   },
   {
-    name: "Night Owl",
-    artist: "Broke For Free",
-    image: "https://images.pexels.com/photos/2264753/pexels-photo-2264753.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=250&w=250",
-    path: "./ktb/m15.mp3"
+    name: "Othai Thamarai",
+    artist: "Nixen, Bala, Sandy Sandellow",
+    image: "https://i.ytimg.com/vi/JZBp0nEzFo8/0.jpg?auto=compress&cs=tinysrgb&dpr=3&h=250&w=250",
+    path: "./ktb/m6.mp3"
   },
   {
-    name: "Night Owl",
-    artist: "Broke For Free",
-    image: "https://images.pexels.com/photos/2264753/pexels-photo-2264753.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=250&w=250",
-    path: "./ktb/m16.mp3"
-  },
-  {
-    name: "Night Owl",
-    artist: "Broke For Free",
-    image: "https://images.pexels.com/photos/2264753/pexels-photo-2264753.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=250&w=250",
-    path: "./ktb/m17.mp3"
-  },
-  
+    name: "Don - Bae Song",
+    artist: "Sivakarthikeyan, Priyanka Mohan | Anirudh Ravichander",
+    image: "https://i.ytimg.com/vi/-7n_krPLRgs/0.jpg?auto=compress&cs=tinysrgb&dpr=3&h=250&w=250",
+    path: "./ktb/m7.mp3"
+  },   
 ];
 
 function random_bg_color() {
@@ -138,7 +88,7 @@ function random_bg_color() {
   let bgColor = "rgb(" + red + "," + green + "," + blue + ")";
 
   // Set the background to that color
-  document.body.style.background = bgColor;
+  document.body.style.background = "url('img.png')";
 }
 
 function loadTrack(track_index) {
