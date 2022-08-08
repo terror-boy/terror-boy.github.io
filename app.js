@@ -25,7 +25,7 @@ let track_list = [
     name: "Night Owl",
     artist: "Broke For Free",
     image: "https://images.pexels.com/photos/2264753/pexels-photo-2264753.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=250&w=250",
-    path: "./ktb/m1.mp3"
+    path: "https://open.spotify.com/playlist/3NcxM1LJJdua8AcRxtijNY"
   },
   {
     name: "Night Owl",
