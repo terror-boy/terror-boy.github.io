@@ -37,7 +37,7 @@ let track_list = [
     name: "Painkiller Songs|pain killers for love failures | soulful songs 8D",
     artist: "Sid Sriram",
     image: "https://i.ytimg.com/vi/92d1iKfScGM/0.jpg?auto=compress&cs=tinysrgb&dpr=3&h=250&w=250",
-    path: "https://drive.google.com/file/d/1hnC1KWZ3cAwl4lX20A3YGVumrdNp6anz/view"
+    path: "https://k.top4top.io/m_241192tt80.mp3"
   },
   {
     name: "Porkanda singam",
@@ -55,13 +55,13 @@ let track_list = [
     name: "Anirudh Melody Hits - Best of Anirudh",
     artist: "Anirudh Ravichandhar",
     image: "https://i.ytimg.com/vi/zDStGFY5SZM/0.jpg?auto=compress&cs=tinysrgb&dpr=3&h=250&w=250",
-    path: "https://drive.google.com/file/d/1RMGPqQSiAI0WDi5TA5osLwEoCG4xOapR/view"
+    path: "https://e.top4top.io/m_241190bpg0.mp3"
   },
   {
     name: "Sid Sriram Melody Hits",
     artist: "Sid Sriram",
     image: "https://i.ytimg.com/vi/-aHmVsJV64c/0.jpg?auto=compress&cs=tinysrgb&dpr=3&h=250&w=250",
-    path: "https://drive.google.com/file/d/1TW9dlYztFLGUDpGfy7reT4k_6ikHD3O0/view"
+    path: "https://b.top4top.io/m_2411zk2jx0.mp3"
   },
   {
     name: "Othai Thamarai",
