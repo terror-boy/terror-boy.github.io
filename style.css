@@ -5,8 +5,12 @@ const resizeOps = () => {
   resizeOps();
   window.addEventListener("resize", resizeOps);
 
-body {
+html, body {
+  height: 100vh;
   background-color: lightgreen;
+  height: calc(var(--vh, 1vh) * 100);
+
+  
 
   /* Smoothly transition the background color */
   transition: background-color .5s;
@@ -121,4 +125,9 @@ i.fa-volume-down, i.fa-volume-up {
 
 i.fa-play-circle, i.fa-pause-circle, i.fa-step-forward, i.fa-step-backward {
   cursor: pointer;
+}
+.modal {
+  width: 50vw;
+  height: 50vh;
+  height: calc(var(--vh, 1vh) * 50);
 }
