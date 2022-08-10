@@ -94,6 +94,10 @@ function randombg(){
   var random= Math.floor(Math.random() * 3) + 0;
   var bigSize = ["url('https://terror-boy.github.io/bgimg/i2.png?auto=compress')",
                  "url('https://terror-boy.github.io/bgimg/i4.png?auto=compress')",
+                 "url('https://i.pinimg.com/originals/b1/12/27/b112279f0f4c7aa95ea7e6dc6410e04e.jpg?auto=compress')",
+                 "url('https://i.pinimg.com/originals/f6/00/4e/f6004ed755cf1d9136a79105143464b6.jpg?auto=compress')",
+                 "url('https://i.pinimg.com/564x/2c/39/8a/2c398aaf822a670bc4257f89c26cf7c1.jpg?auto=compress')",
+                 "url('https://i.pinimg.com/564x/77/e4/b3/77e4b35532edcf609488b260fa1128f2.jpg?auto=compress')",
                  "url('https://terror-boy.github.io/bgimg/im.png?auto=compress')"
                  ];
   document.body.style.background = bigSize[random];
