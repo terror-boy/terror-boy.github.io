@@ -96,7 +96,7 @@ function randombg(){
                  "url('https://terror-boy.github.io/bgimg/i4.png')",
                  "url('https://terror-boy.github.io/bgimg/im.png')"
                  ];
-  document.getElementById("random").style.backgroundImage=bigSize[random];
+  document.getElementById("random").body.style.background=bigSize[random];
 }
 
 
