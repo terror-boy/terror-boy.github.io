@@ -77,19 +77,11 @@ let track_list = [
   },   
 ];
 
-function random_bg_color() {
+var myPix = new Array("bgimg/i2.png","bgimg/i4.png","bgimg/im.png");
 
-  // Get a number between 64 to 256 (for getting lighter colors)
-  let red = Math.floor(Math.random() * 256) + 64;
-  let green = Math.floor(Math.random() * 256) + 64;
-  let blue = Math.floor(Math.random() * 256) + 64;
-
-  // Construct a color withe the given values
-  let bgColor = "rgb(" + red + "," + green + "," + blue + ")";
-
-  // Set the background to that color
-  document.body.style.background = "url(image)";
-}
+function choosePic() {
+     var randomNum = Math.floor(Math.random() * myPix.length);
+     document..body.style.background("myPicture").src = myPix[randomNum];
 
 function loadTrack(track_index) {
   clearInterval(updateTimer);
