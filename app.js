@@ -37,7 +37,7 @@ let track_list = [
     name: "Painkiller Songs|pain killers for love failures | soulful songs 8D",
     artist: "Sid Sriram",
     image: "https://i.ytimg.com/vi/92d1iKfScGM/0.jpg?auto=compress&cs=tinysrgb&dpr=3&h=250&w=250",
-    path: "https://k.top4top.io/m_241192tt80.mp3"
+    path: "./ktb/m1.mp3"
   },
   {
     name: "Porkanda singam",
@@ -55,13 +55,13 @@ let track_list = [
     name: "Anirudh Melody Hits - Best of Anirudh",
     artist: "Anirudh Ravichandhar",
     image: "https://i.ytimg.com/vi/zDStGFY5SZM/0.jpg?auto=compress&cs=tinysrgb&dpr=3&h=250&w=250",
-    path: "https://e.top4top.io/m_241190bpg0.mp3"
+    path: "./ktb/m4.mp3"
   },
   {
     name: "Sid Sriram Melody Hits",
     artist: "Sid Sriram",
     image: "https://i.ytimg.com/vi/-aHmVsJV64c/0.jpg?auto=compress&cs=tinysrgb&dpr=3&h=250&w=250",
-    path: "https://b.top4top.io/m_2411zk2jx0.mp3"
+    path: "./ktb/m5.mp3"
   },
   {
     name: "Othai Thamarai",
@@ -88,7 +88,7 @@ function random_bg_color() {
   let bgColor = "rgb(" + red + "," + green + "," + blue + ")";
 
   // Set the background to that color
-  document.body.style.background = "url('im2.jpg')";
+  document.body.style.background = "url(image)";
 }
 
 function loadTrack(track_index) {
