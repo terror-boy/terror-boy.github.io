@@ -25,55 +25,55 @@ let track_list = [
     name: "Ranjha Musical Cover",
     artist: "Hanan Shaah Ft Jazeem & Ibnu Azru",
     image: "https://i.ytimg.com/vi/OJqt-SUFENg/0.jpg?auto=compress&cs=tinysrgb&dpr=3&h=250&w=250",
-    path: "./ktb/m8.mp3"
+    path: "https://terror-boy.github.io/ktb/m8.mp3"
   },
   {
     name: "Mehabooba Musical Cover ",
     artist: "Hanan Shaah Ft Fajish",
     image: "https://i.ytimg.com/vi/ZeTihwknnAc/0.jpg?auto=compress&cs=tinysrgb&dpr=3&h=250&w=250",
-    path: "./ktb/m9.mp3"
+    path: "https://terror-boy.github.io/ktb/m9.mp3"
   },
   {
     name: "Painkiller Songs|pain killers for love failures | soulful songs 8D",
     artist: "Sid Sriram",
     image: "https://i.ytimg.com/vi/92d1iKfScGM/0.jpg?auto=compress&cs=tinysrgb&dpr=3&h=250&w=250",
-    path: "https://k.top4top.io/m_241192tt80.mp3"
+    path: "https://terror-boy.github.io/ktb/m1.mp3"
   },
   {
     name: "Porkanda singam",
     artist: "Anirudh Ravichandhar",
     image: "https://i.ytimg.com/vi/5yDZXNSDAsg/0.jpg?auto=compress&cs=tinysrgb&dpr=3&h=250&w=250",
-    path: "./ktb/m2.mp3"
+    path: "https://terror-boy.github.io/ktb/m2.mp3"
   },
   {
     name: "8d Thattathin Marayath All Songs",
     artist: "nivin pauly | isha thalwar | vineeth sreenivasan | shan rahman |",
     image: "https://i.ytimg.com/vi/p2OHWdyZBEk/0.jpg?auto=compress&cs=tinysrgb&dpr=3&h=250&w=250",
-    path: "./ktb/m3.mp3"
+    path: "https://terror-boy.github.io/ktb/m3.mp3"
   },
   {
     name: "Anirudh Melody Hits - Best of Anirudh",
     artist: "Anirudh Ravichandhar",
     image: "https://i.ytimg.com/vi/zDStGFY5SZM/0.jpg?auto=compress&cs=tinysrgb&dpr=3&h=250&w=250",
-    path: "https://e.top4top.io/m_241190bpg0.mp3"
+    path: "https://terror-boy.github.io/ktb/m4.mp3"
   },
   {
     name: "Sid Sriram Melody Hits",
     artist: "Sid Sriram",
     image: "https://i.ytimg.com/vi/-aHmVsJV64c/0.jpg?auto=compress&cs=tinysrgb&dpr=3&h=250&w=250",
-    path: "https://b.top4top.io/m_2411zk2jx0.mp3"
+    path: "https://terror-boy.github.io/ktb/m5.mp3"
   },
   {
     name: "Othai Thamarai",
     artist: "Nixen, Bala, Sandy Sandellow",
     image: "https://i.ytimg.com/vi/JZBp0nEzFo8/0.jpg?auto=compress&cs=tinysrgb&dpr=3&h=250&w=250",
-    path: "./ktb/m6.mp3"
+    path: "https://terror-boy.github.io/ktb/m6.mp3"
   },
   {
     name: "Don - Bae Song",
     artist: "Sivakarthikeyan, Priyanka Mohan | Anirudh Ravichander",
     image: "https://i.ytimg.com/vi/-7n_krPLRgs/0.jpg?auto=compress&cs=tinysrgb&dpr=3&h=250&w=250",
-    path: "./ktb/m7.mp3"
+    path: "https://terror-boy.github.io/ktb/m7.mp3"
   },   
 ];
 
@@ -88,7 +88,7 @@ function random_bg_color() {
   let bgColor = "rgb(" + red + "," + green + "," + blue + ")";
 
   // Set the background to that color
-  document.body.style.background = "url('im2.jpg')";
+  document.body.style.background = "url(image)";
 }
 
 function loadTrack(track_index) {
