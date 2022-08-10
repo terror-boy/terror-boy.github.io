@@ -92,19 +92,11 @@ function random_bg_color() {
 
 function randombg(){
   var random= Math.floor(Math.random() * 3) + 0;
-<<<<<<< HEAD
   var bigSize = ["url('https://terror-boy.github.io/bgimg/i2.png?auto=compress')",
                  "url('https://terror-boy.github.io/bgimg/i4.png?auto=compress')",
                  "url('https://terror-boy.github.io/bgimg/im.png?auto=compress')"
                  ];
   document.body.style.background = bigSize[random];
-=======
-  var bigSize = ["url('https://terror-boy.github.io/bgimg/i2.png')",
-                 "url('https://terror-boy.github.io/bgimg/i4.png')",
-                 "url('https://terror-boy.github.io/bgimg/im.png')"
-                 ];
-  document.getElementById("random").body.style.background=bigSize[random];
->>>>>>> 9212e1456ef459fec91ce0f6c834f84ed5f7d8b5
 }
 
 
