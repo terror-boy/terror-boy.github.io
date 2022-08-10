@@ -86,16 +86,19 @@ function random_bg_color() {
   // Construct a color withe the given values
   let bgColor = "rgb(" + red + "," + green + "," + blue + ")";
   // Set the background to that color
-  document.body.style.background = "url('im2.jpg')";
+  document.body.style.background = "url('https://terror-boy.github.io/bgimg/im.png')";
 }
 */
 
-var myPix = new Array("bgimg/i2.png","bgimg/i4.png","bgimg/im.png");
-
-function choosePic() {
-     var randomNum = Math.floor(Math.random() * myPix.length);
-     document.body.style.background("myPicture").src = myPix[randomNum];
+function randombg(){
+  var random= Math.floor(Math.random() * 3) + 0;
+  var bigSize = ["url('https://terror-boy.github.io/bgimg/i2.png')",
+                 "url('https://terror-boy.github.io/bgimg/i4.png')",
+                 "url('https://terror-boy.github.io/bgimg/im.png')"
+                 ];
+  document.getElementById("random").style.backgroundImage=bigSize[random];
 }
+
 
 function loadTrack(track_index) {
   clearInterval(updateTimer);
