@@ -91,7 +91,7 @@ function random_bg_color() {
 */
 
 function randombg(){
-  var random= Math.floor(Math.random() * 3) + 0;
+  var random= Math.floor(Math.random() * 7) + 0;
   var bigSize = ["url('https://terror-boy.github.io/bgimg/i2.png?auto=compress')",
                  "url('https://terror-boy.github.io/bgimg/i4.png?auto=compress')",
                  "url('https://i.pinimg.com/originals/b1/12/27/b112279f0f4c7aa95ea7e6dc6410e04e.jpg?auto=compress')",
