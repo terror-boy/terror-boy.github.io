@@ -1,8 +1,11 @@
 {
-	"name": "Bottus",
+	"name": "terror-boy.github.io",
 	"description": " Whatsapp bot.",
 	"keywords": [
 		"whatsapp",
 		"bot"
 	],
+	{
+  "website": "https://terror-boy.github.io/"
+}
 }
